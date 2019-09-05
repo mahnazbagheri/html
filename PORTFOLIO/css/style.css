@@ -1,0 +1,103 @@
+body{
+	background-image: url("../image/5.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 150vh;
+}
+.container{
+	background-color:lightgreen; 
+}
+#P{
+	color:lightyellow;
+	font-size: 50px;
+}
+#robot{
+	animation-name: mahnaz;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:5 ;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+	animation-direction: alternate;
+}
+@keyframes mahnaz{
+	from{transform: translateX(0);}
+	to {transform: translateX(900px);} 
+
+	}
+
+	.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+	.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+	.S:hover{
+  	color:lightyellow;
+
+}
+.A:hover{
+  	color:red;
+  	font-size:50px;
+  }
+  #M{
+  	position: absolute;
+  	width: 400px;
+  	height: 500px;
+
+  }
+  #B{
+  	overflow: hidden;
+  }
+#C:hover{
+	color:darkgreen;
+	font-size: 30px;
+}
+h1.head {
+	text-align: center;
+	background-color: red;
+	padding: 100px 0px 200px 0px;
+}
+h1.head {
+	
+	background-color: red;
+	padding: 100px 0px 200px 0px;
+}
+
+#Z{
+
+}
+#F{
+	background-color:lightgrey;
+	color:black;
+}
+#BUTTON{
+	cursor:hand;
+	background-color: yellow;
+	color:black;
+	font:weight:700;
+	font -size:1.2rem;
+	border:none;
+	padding:1em 3em;
+	margin:2em auto;
+	display: block;
+
+transition: background 11s ease-in, transform 15s .25s ease-in-out;
+
+}
+#BUTTON:hover{
+	background:purple;
+	transform: scale(2.2);
+}
+.container.color{
+	background-color: rgba(255,255,255,0.3);
+}
